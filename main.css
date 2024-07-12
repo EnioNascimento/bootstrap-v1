@@ -1,0 +1,49 @@
+
+.navbar-nav .nav-link.active{
+    color:#fff;
+}
+.nav-link{
+    text-align: center;
+}
+.nav-item a{
+    padding: 5px 15px;
+    background-color: #002b64;
+    color: #fff;
+    margin-right: 10px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    padding: 5px 15px;
+    background-color: #002b64;
+    color: #fff;
+}
+
+header{
+    position:sticky;
+    top:0;
+    left: 0;
+    background-color: #fff;
+    padding-top: 70px;
+    z-index: 999;
+}
+#areas{
+    padding: 75px 0;
+}
+.banner{
+    text-align: center;
+    color: #fff;
+    background: url('./img/banner.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 125px 0;
+    margin: 75px 0;
+}
+h1,h6{
+    text-align: center;
+    padding: 35px 0;
+}
+form {
+    text-align: center;
+}
+
+.card-header, .card-title, .card-subtitle, .card-text{
+    text-align: center;
+}

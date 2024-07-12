@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+   <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <header id="cabecalho inicio">
+        <div class="navbar navbar-expand-lg">
+       <div class="container">
+        <img src="./img/logo-small.png" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse justify-content-end" id="menu">
+            <ul class="nav navbar-nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#inicio">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#areas">Áreas de Atuação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+       </div>
+    </div>
+    </header>
+
+
+
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                <img class="d-block w-100" src="./img/slide1.jpg" alt="" srcset="">
+                <div class="carousel-caption">
+                    <h2>Web sites e Landing Pages</h2>
+                </div>
+            </div>
+    
+            <div class="carousel-item" data-bs-interval="2000">
+                <img class="d-block w-100" src="./img/slide2.jpg" alt="" srcset="">
+                <div class="carousel-caption">
+                    <h2>Redes Sociais</h2>
+                </div>
+            </div>
+    
+            <div class="carousel-item" data-bs-interval="2000">
+                <img class="d-block w-100" src="./img/slide3.jpg" alt="" srcset="">
+                <div class="carousel-caption">
+                    <h2>Tráfego Pago</h2>
+                </div>
+            </div>
+    
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+    
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+    
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+   
+    <div class="container" id="areas">
+        <h1>Áreas de Atuação</h1>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        Web sites e Langing Pages
+                    </div>
+                    <img src="./img/servico1.jpg" alt="" srcset="">
+                    <div class="card-body ">
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle"> Subtítulo do card</h5>
+                        <p class="card-text">
+                         Conheça os cards do Bootstrap e usas variações
+                        </p>
+                        <a href="" class="btn btn-primary btn-lg w-100" >Ler mais</a>
+                    </div>
+                </div>      
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        Redes Socias
+                    </div>
+                    <img src="./img/servico2.jpg" alt="" srcset="">
+                    <div class="card-body">
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle"> Subtítulo do card</h5>
+                        <p class="card-text">
+                         Conheça os cards do Bootstrap e usas variações
+                        </p>
+                        <a href="" class="btn btn-primary btn-lg w-100">Ler mais</a>
+                    </div>
+                </div>      
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        Tráfego Pago
+                    </div>
+                    <img src="./img/servico3.jpg" alt="" srcset="">
+                    <div class="card-body">
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle"> Subtítulo do card</h5>
+                        <p class="card-text">
+                         Conheça os cards do Bootstrap e usas variações
+                        </p>
+                        <a href="" class="btn btn-primary btn-lg w-100">Ler mais</a>
+                    </div>
+                </div>      
+            </div>            
+          
+
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+        <div class="banner">
+            <h2>TRANSFORMANDO IDÉIAS E SONHOS EM REALIDADE</h2>
+        </div>
+    </div>
+    </section>
+    
+
+<div class="container" id="contato">
+    <h1>FORMULÁRIO DE CONTATO</h1>
+    <form action="">
+       
+        <label for="" class="form-label"><b>Nome:</b></label>
+        <input type="text" name="" id="" class="form-control" placeholder="Digite seu nome..">
+   
+
+        <label for="" class="form-label"><b>Email:</b></label>
+        <input type="email" name="" id="" class="form-control" placeholder="Digite seu email..">
+
+
+        <label for="" class="form-label"><b>Telefone:</b></label>
+        <input type="tel" name="" id="" class="form-control" placeholder="Digite seu telefone.."><br><br>
+
+        <button type="submit" class="btn btn-primary large">Enviar</button>
+    </form>
+</div>
+
+<div class="container">
+    <copy>
+        <h6>
+            &copy;S7 - Todos os direitos reservados - 2024 
+        </h6>
+    </copy>
+</div>
+
+
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
